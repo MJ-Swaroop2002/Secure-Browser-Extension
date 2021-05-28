@@ -1,0 +1,27 @@
+{
+    "name": "Secure Browser",
+    "short_name": "Web Gaurd",
+    "version": "1.1.3",
+    "description": "Locks Your Browser With a Password so that no one can access it except you.",
+    "author": "Data Pirates",
+    "manifest_version": 2,
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "options_page": "options/index.html",
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "browser_action": {
+        "default_title": "BrowserLock",
+        "default_icon": "icons/Browserlock.png"
+    },
+    "icons": {
+        "128": "icons/128.png",
+        "64": "icons/64.png",
+        "48": "icons/48.png",
+        "16": "icons/16.png"
+    }
+}
